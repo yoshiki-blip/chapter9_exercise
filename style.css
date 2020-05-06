@@ -3,11 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   color: #6c6b6b;
+}
+main{
+  margin:50px auto;
   width:960px;
 }
 .item1,.item2,.item3{
-  margin-top:50px;
-  margin-bottom:50px;
   border:1px solid  #CCCCCC;
   width:300px;
   height:375px;
@@ -43,6 +44,7 @@ p{
 @media screen and (max-width:768px) {
   .item1,.item2,.item3{
     float:none;
+    margin:auto;
   }
   .item1{
     margin-top:50px;
