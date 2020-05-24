@@ -42,20 +42,17 @@ p{
   width:280px;
 }
 @media screen and (max-width:768px) {
+  main{
+    margin:50px auto;
+    width:90%;
+  }
   .item1,.item2,.item3{
     float:none;
-    margin:auto;
   }
   .item1{
-    margin-top:50px;
     margin-bottom:20px;
-  }
-  .item2{
-    margin-top:0px;
-    margin-bottom:0px;
   }
   .item3{
     margin-top:20px;
-    margin-bottom:50px;
   }
 }
